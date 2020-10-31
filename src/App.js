@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import {Posts} from "./components/Posts";
+import { Postform } from "./components/Postform";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <header >
         <h4>React Redux Template</h4>
       </header>
+      <Postform />
+      <hr />
       <Posts />
     </div>
   );
